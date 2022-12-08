@@ -1,0 +1,89 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@MKM327 
+nestjs
+/
+nest
+Public
+Code
+Issues
+48
+Pull requests
+94
+Actions
+Projects
+Security
+Insights
+nest/.gitignore
+@kamilmysliwiec
+kamilmysliwiec Merge branch 'master' into chore/migrate-to-tsc-composite-mode
+Latest commit 6c8ce69 on Nov 7
+ History
+ 4 contributors
+@kamilmysliwiec@wbhob@micalevisk@mkaufmaner
+44 lines (38 sloc)  525 Bytes
+
+# dependencies
+node_modules/
+
+# IDE
+/.idea
+/.awcache
+/.vscode
+/.devcontainer
+*.code-workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# bundle
+packages/**/*.d.ts
+packages/**/*.js
+
+# misc
+.DS_Store
+lerna-debug.log
+npm-debug.log
+yarn-error.log
+/**/npm-debug.log
+/packages/**/.npmignore
+/packages/**/LICENSE
+*.tsbuildinfo
+
+# example
+/quick-start
+/example_dist
+/example
+/dist
+# tests
+/test
+/benchmarks/memory
+/coverage
+/.nyc_output
+/packages/graphql
+/benchmarks/memory
+build/config\.gypi
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
